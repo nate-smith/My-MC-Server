@@ -1,0 +1,29 @@
+#Hub Essentials 1.5.4
+######SERVER SELECTOR#####
+#
+#Servername: Name item will display. Serverdescription: The lore the item will have (Text under the item). Command: The command the player will use when they select an item, example: /server pvp. Use & and a color code for colors. Server Item Type = The item it will be use (Item ID)
+#ITEM TYPE 'AIR' WILL DISABLE THE SLOT.
+#Item slot
+ServerSelectorItemSlot: 2
+#Server Selector enabled?
+ServerSelector: true
+#Command or bungee? Command will replace Server(Number)Name
+Command: false
+#Amount of inventory rows
+Rows: 1
+#Amount of items in the inventory
+Items: 1
+#In what inventory slot should the compass be in by default?
+ServerSelectorSlot: 0
+ServerSelectorDisplayName: '&fServer Selector'
+ServerSelectorTitle: '&bTitle'
+ServerSelectorItemType: COMPASS
+#Inventory items.
+Item1Type: 'DIAMOND_SWORD'
+Item1DisplayName: '&cItem One'
+Item1Server: 'factions'
+Item1Lore:
+ - '&cLine one'
+ - '&cLine two'
+Item1Commands:
+ - 'warp world1'

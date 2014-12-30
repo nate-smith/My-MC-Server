@@ -1,0 +1,112 @@
+#####################################
+###########HubConfig 1.5.4###########
+#####################################
+#true = enabled.
+
+WorldName: 'world'
+#Disable block placing/breaking?
+BlockBreakPlace: true
+#Make people Adventure mode when they join?
+adventuremode: true
+#Give people Speed potion effect when they join?
+speedpotion: true
+#Speed potion level
+speedpotionlevel: 1
+#Give people Jump potion effect when they join?
+jumppotion: true
+#Speed potion level
+jumppotionlevel: 1
+#Delete 'player.dat' when a player disconnects?
+playerdata: true
+#Disable hunger?
+hunger: true
+#Disable chat?
+chat: true
+#Disable rain?
+rain: true
+#Cancel item drops?
+itemdrop: true
+#Cancel player damage?
+disabledamage: true
+#Disable leave message?
+leavemessage: true
+#Custom leave message? Replaces <player> with the players name.
+leavemsg: '&b<player> &chas left.'
+#Disable join messages?
+joinmessage: true
+#Custom join message? Replaces <player> with the players name.
+joinmsg: '&b<player> &ahas joined.'
+#
+#Teleport player on join?
+#
+teleportjoin: false
+LocationX: 5
+LocationY: 5
+LocationZ: 5
+LocationYaw: 2
+LocationPitch: 5
+#
+#Chat
+#
+#Show a message when a player tries to talk (If chat is disabled)
+chatmessage: false
+chatmsg: '&bSorry, chat is disabled.'
+
+#Moving items
+#Prevent a player from moving items in their inventory? hubessentials.inventorymovebypass to bypass
+CancelInventoryMove: false
+#Add things after death
+ItemsOnDeath: true
+#Cancel inventory clear
+CancelInventoryClear: false
+#Player popping(Hide players if you hit them?)
+PlayerPopping: false
+#Play a sound?
+PlayerPoppingSound: false
+#Display a smoke effect?
+PlayerPoppingEffect: true
+
+#LOCK TIME
+#World name:
+locktime: true
+locktimetime: 0
+
+#AFK KICK
+#Enable it?
+AfkKick: true
+#Every time it will check if players are afk.
+AfkKickInterval: 60
+AfkKickMessage: '&cKicked for being afk!'
+
+#Teleport players if they fall through the void? Requires damage to be disabled.
+VoidTeleport: true
+
+## PLAYER SHOW/HIDE ##
+#Enable the torch?
+torch: true
+#TorchCooldown?
+TorchCooldown: true
+#Cooldown in MS (1000 = 1 second)
+TorchCooldownTime: 5000
+#Message for the player when they try to use the item when it is on cooldown
+TorchCooldownMessage: '&cYou can not use that item yet!'
+#In what item slot should the torch be in? (1-9)
+TorchItemSlot: 1
+#Item that the player rwill have to hide players.
+PlayerVisibilityItem: 'BLAZE_ROD'
+PlayerVisibilityItemName: '&cHide Players'
+PlayerVisibilityItemLore: '&cRight click to Hide players.'
+#Item that the player will have to active players again.
+PlayerInvisibilityItem: 'STICK'
+PlayerInvisibilityItemName: '&aShow Players'
+PlayerInvisibilityItemLore: '&bRight click to Show players.'
+
+#DOUBLE JUMP
+#Enable double jump?
+EnableDoubleJump: true
+#Cooldown?
+DoubleJumpCooldown: true
+#Cooldown time default 10 seconds
+DoubleJumpCooldownTime: 10000
+#Double jump sound?
+DoubleJumpSound: true

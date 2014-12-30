@@ -1,0 +1,23 @@
+#WebsiteLink config for Hub Essentials 1.2.0
+Enabled: true
+#Item Slot
+ItemSlot: 9
+#Item type
+ItemType: DIAMOND
+ItemDisplayName: '&cInformation'
+ItemLore: 
+ - '&4Line one'
+ - '&5Line two'
+ - '&6Line three'
+#Cooldown?
+Cooldown: false
+#Cooldown in MS (1000 = 1 second) Default 5 seconds
+CooldownTime: 5000
+#Cooldown message
+CooldownMessage: '&cItem is on cooldown'
+Messages:
+ - '&cLine One'
+ - '&1Line two'
+ - '&2Line three'
+ - '&3Line four'
+ - '&4Line five'

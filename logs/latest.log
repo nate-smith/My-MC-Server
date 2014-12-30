@@ -1,0 +1,97 @@
+[17:11:26] [Server thread/INFO]: Starting minecraft server version 1.8
+[17:11:26] [Server thread/INFO]: Loading properties
+[17:11:26] [Server thread/INFO]: Default game type: SURVIVAL
+[17:11:26] [Server thread/INFO]: Generating keypair
+[17:11:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:11:27] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0899683 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[17:11:27] [Server thread/ERROR]: Could not load 'plugins/Multiverse-Portals-2.4.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Multiverse-Core
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugins(CraftServer.java:287) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.<init>(CraftServer.java:249) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at net.minecraft.server.v1_8_R1.PlayerList.<init>(PlayerList.java:69) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at net.minecraft.server.v1_8_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:133) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:473) [craftbukkit-1.8.jar:git-Bukkit-0899683]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_65]
+[17:11:27] [Server thread/INFO]: [MultiWorld] Loading MultiWorld v5.2.5
+[17:11:27] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.2
+[17:11:27] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v3.6.2
+[17:11:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.0;3342-78f975b9
+[17:11:27] [Server thread/INFO]: [iConomy] Loading iConomy v7.0
+[17:11:27] [Server thread/INFO]: [AntiXRay] Loading AntiXRay v1.8.2
+[17:11:27] [Server thread/INFO]: [Vault] Loading Vault v1.5.0-b28
+[17:11:27] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.7.2
+[17:11:27] [Server thread/INFO]: [ScoreboardStats] Loading ScoreboardStats v0.8.4
+[17:11:27] [Server thread/INFO]: [HubEssentials] Loading HubEssentials v1.5.9
+[17:11:27] [Server thread/INFO]: [EchoPet] Loading EchoPet v2.6.0-b28
+[17:11:27] [Server thread/INFO]: [Autorank] Loading Autorank v3.4
+[17:11:27] [Server thread/INFO]: [ClickWarp] Loading ClickWarp v1.3.5
+[17:11:27] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.7.18
+[17:11:27] [Server thread/INFO]: [Vault] Enabling Vault v1.5.0-b28
+[17:11:27] [Server thread/WARN]: iConomy - If you are using Flatfile storage be aware that versions 6, 7 and 8 have a CRITICAL bug which can wipe ALL iconomy data.
+[17:11:27] [Server thread/WARN]: if you're using Votifier, or any other plugin which handles economy data in a threaded manner your server is at risk!
+[17:11:27] [Server thread/WARN]: it is highly suggested to use SQL with iCo6 or to use an alternative economy plugin!
+[17:11:27] [Server thread/INFO]: [Vault] [Economy] iConomy 6 found: Waiting
+[17:11:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:11:27] [Server thread/INFO]: [Vault] Enabled Version 1.5.0-b28
+[17:11:27] [Server thread/INFO]: Preparing level "world"
+[17:11:27] [Server thread/INFO]: Preparing start region for level 0 (Seed: 417265045901745966)
+[17:11:28] [Server thread/INFO]: Preparing spawn area: 46%
+[17:11:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: 202961)
+[17:11:29] [Server thread/INFO]: Preparing start region for level 2 (Seed: 202961)
+[17:11:29] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.5
+[17:11:29] [Server thread/INFO]: [MultiWorld] v5.2.5 enabled.
+[17:11:29] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.2
+[17:11:29] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v3.6.2
+[17:11:30] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[17:11:30] [Server thread/INFO]: [SilkSpawners] Loading support for v1_8_R1
+[17:11:30] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
+[17:11:46] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[17:11:46] [Server thread/INFO]: [SilkSpawners] BarAPI was not found and remains disabled!
+[17:11:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.0;3342-78f975b9
+[17:11:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:11:46] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[17:11:46] [Server thread/INFO]: [iConomy] Enabling iConomy v7.0
+[17:11:46] [Server thread/INFO]: [iConomy - April Fools] Enabled (14 ms)
+[17:11:46] [Server thread/INFO]: [iConomy] Hello, I'm Nijikokun. Yes, this is an April Fools joke, but '/money top' was fixed! Enjoy :) - Rare Version!
+[17:11:46] [Server thread/INFO]: [Vault][Economy] iConomy 7 hooked.
+[17:11:46] [Server thread/INFO]: [AntiXRay] Enabling AntiXRay v1.8.2
+[17:11:46] [Thread-9/INFO]: [iConomy - April Fools] Purged accounts with default balance.
+[17:11:46] [Server thread/INFO]: [AntiXRay] AntiXRay enabled.
+[17:11:46] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.7.2
+[17:11:46] [Server thread/INFO]: [ClearLag] Loading modules...
+[17:11:46] [Server thread/WARN]: [ClearLag] mob-range requires you to use bukkit v1.7_r4 (1.7.10)
+[17:11:46] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[17:11:46] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[17:11:46] [Thread-10/INFO]: [ClearLag] Checking for updates...
+[17:11:46] [Server thread/INFO]: [ScoreboardStats] Enabling ScoreboardStats v0.8.4
+[17:11:46] [Server thread/INFO]: [ScoreboardStats] Registered replacers: [VaultVariables, PlayerPingVariable, GeneralVariables, StatsVariables]
+[17:11:46] [Server thread/INFO]: [HubEssentials] Enabling HubEssentials v1.5.9
+[17:11:46] [Server thread/INFO]: [EchoPet] Enabling EchoPet v2.6.0-b28
+[17:11:47] [Thread-10/INFO]: [ClearLag] No updates found!
+[17:11:47] [Server thread/INFO]: [Autorank] Enabling Autorank v3.4
+[17:11:47] [Server thread/INFO]: [Autorank] Simple config file loaded
+[17:11:47] [Server thread/INFO]: [Autorank] Advanced config file loaded
+[17:11:47] [Server thread/INFO]: [Autorank] Settings config file loaded
+[17:11:47] [Server thread/INFO]: [Autorank] Loaded stored uuids.
+[17:11:47] [Server thread/INFO]: [Autorank] Loaded playerdata.
+[17:11:47] [Server thread/INFO]: [Autorank] No stats plugin found! Most requirements cannot be used!
+[17:11:47] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
+[17:11:47] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
+[17:11:47] [Server thread/INFO]: [Autorank] Data file loaded
+[17:11:47] [Server thread/ERROR]: [Autorank] There are invalid groups defined in the config!
+[17:11:47] [Server thread/ERROR]: [Autorank] Check your config!
+[17:11:47] [Server thread/INFO]: [Autorank] Language file loaded (lang.yml)
+[17:11:47] [Server thread/INFO]: [Autorank] Using timings of: autorank
+[17:11:47] [Server thread/INFO]: [Autorank] Autorank 3.4 has been enabled!
+[17:11:47] [Server thread/INFO]: [ClickWarp] Enabling ClickWarp v1.3.5
+[17:11:47] [Server thread/INFO]: [ClickWarp] Metrics started!
+[17:11:47] [Server thread/INFO]: [ClickWarp] Plugin v1.3.5 by comniemeer enabled.
+[17:11:47] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.7.18
+[17:11:48] [Server thread/INFO]: [ChestShop] Vault loaded! Found an economy plugin!
+[17:11:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:11:48] [Server thread/INFO]: Done (21.022s)! For help, type "help" or "?"
+[17:11:48] [Server thread/INFO]: [0;32;22mDefault messages[m
+[17:11:48] [pool-3-thread-12/INFO]: [Vault] Checking for Updates ... 
+[17:11:48] [pool-3-thread-12/INFO]: [Vault] No new version available

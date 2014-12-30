@@ -1,0 +1,44 @@
+#######Hub 1.3.2######
+####Rank Inventory####
+######################
+#ITEM TYPE AIR WILL DISABLE THE SLOT. | Use & for color codes.
+#Enable the rank inventory?
+Enabled: true
+#Send a message when the player clicks somewhere?
+Message: true
+#Messages to send
+Messages:
+ - '&aLine one'
+ - '&aLine two'
+ - '&aLine three'
+ - '&aLine four'
+#Inventory rows
+Rows: 2
+#Amount of items, rest will be empty.
+Items: 3
+#Inventory Title
+InventoryTitle: '&cRanks'
+#Item slot
+ItemSlot: 2
+ItemType: GOLD_INGOT
+ItemName: '&cServer Ranks'
+ItemLore:
+ - '&cLine one'
+ - '&aLine two'
+#Rank inventory enabled?
+RankInventory: true
+Item1Type: 'DIAMOND_SWORD'
+Item1DisplayName: '&cRank One'
+Item1Lore:
+ - '&cLine one'
+ - '&cLine two'
+Item2Type: 'DIAMOND_PICKAXE'
+Item2DisplayName: '&cRank Two'
+Item2Lore:
+ - '&cLine one'
+ - '&cLine two'
+Item3Type: 'DIAMOND_AXE'
+Item3DisplayName: '&cRank Three'
+Item3Lore:
+ - '&cLine one'
+ - '&cLine two'

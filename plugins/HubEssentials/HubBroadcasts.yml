@@ -1,0 +1,11 @@
+#Broadcast config for Hub Essentials 1.2.0
+#Color codes can be found @ http://minecraft.gamepedia.com/Formatting_codes
+#Enable the broadcaster? true/false
+Enabled: true
+#Interval = How often each messages will be broadcasts (In seconds)
+Interval: 90
+#To add a message just copy and paste a line then edit one
+Broadcasts:
+ - '&cHello'
+ - '&2Default messages'
+ - '&3 Change in the config'

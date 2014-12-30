@@ -1,0 +1,14 @@
+#Book config for Hub Essentials 1.2.0
+#Enable the book?
+Enabled: true
+#Book Item Slot
+ItemSlot: 4
+#Book author
+Author: '&aRetherz'
+#Book title
+Title: '&aWelcome to our Hub'
+Pages:
+ - 'Page one'
+ - 'Page two'
+ - 'Page three'
+ - 'Page four'
